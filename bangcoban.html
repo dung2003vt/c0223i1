@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    h1 {
+        background-color: red;
+        color: white;
+        text-align: center;
+    }
+    table{
+        width: 600px;
+        margin-left:175px;
+    }
+    .letrai{
+        text-align: right;
+    }
+    .leo{
+        text-align: right;
+        vertical-align: top;
+    }
+    .le{
+        text-align: left;
+    }
+</style>
+<body>
+<form>
+    <table>
+        <tr>
+            <td colspan="4"><h1>Sở thích của bạn</h1></td>
+        </tr>
+        <tr>
+            <th class="letrai"> Họ và Tên</th>
+            <th colspan="3" class="le">
+                <input type="text" name="Họ và Tên">
+            </th>
+        <tr>
+        <th class="letrai"> Email</th>
+            <th colspan="2" class="le">
+                <input type="text" name="Email"></th>
+        <tr>
+            <th rowspan=4" class="leo">Sở thích</th>
+           <th class="le"><input type="checkbox" name="Thể thao"> Thể thao
+            <input type="checkbox" name="Âm nhạc"> Âm nhạc
+            <input type="checkbox" name="Đọc sách"> Đọc sách</th>
+        </tr>
+            <th class="le"><input type="checkbox" name="Lướt web"> Lướt web
+            <input type="checkbox" name="Chơi Game"> Chơi game
+            <input type="checkbox" name=Điện ảnh> Điện ảnh</th>
+           </tr>
+             <tr>
+                 <th class="le"><input type="checkbox" name="Du lịch"> Du lịch</th>
+            </tr>
+        <tr>
+            <th class="le"><input type="submit" value="Gửi thông tin">
+                <input type="reset" value="Nhập lại"></th>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
